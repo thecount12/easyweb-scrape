@@ -33,7 +33,7 @@ etc...
 1. Builds an array of all urls from a domain. 
 2. Stay within the domain name. 
 3. Search for email addresses.
-4. Creates csv of result.dat consisting of: "url","email" 
+4. Creates csv of result.dat consisting of: URL,Email 
   * just rename the file to result.csv.
 5. Creates error.dat consisting of domains it could not connect to. 
 
