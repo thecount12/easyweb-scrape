@@ -17,9 +17,9 @@ following reasons.
 5. Flash driven sites
 6. contact info embedded in images or other media
 7. extracting name and email: nearly impossible
-- Names most often don't follow an email tag
-- Not on the same line or same couple of lines
-- Hard to distinguish example (dolphin, razor, Peter) words or names
+  * Names most often don't follow an email tag
+  * Not on the same line or same couple of lines
+  * Hard to distinguish example (dolphin, razor, Peter) words or names
 
 ----
 
