@@ -17,12 +17,12 @@ derror=open("error.dat","a")
 ar=[]
 for i in mysite.readlines():
 	if 'www' in i:
-		domain=i.replace("www.","")
+		domain=i.replace("www.","") #strip off www
 	else:
 		domain=i
-	ndomain=domain.split(".")
+	ndomain=domain.split(".") #strip of .com .net etc...
 	st=ndomain[0]
-	newdomain=st.split("http://")
+	newdomain=st.split("http://") #domain name without www or .com
 	print "checking to add to array: %s" % i
 	try:	
 		website=urllib2.urlopen(i)
@@ -31,7 +31,7 @@ for i in mysite.readlines():
 		for z in links:
 			print "creating array of links for domain"
 			print "."
-			if newdomain[1] in z[0]: # newdomain is same domain
+			if newdomain[1] in z[0]: # filter by same domain
 				alist=['.ico','.jpg','.gif','.png','.css','.xml']
 				if all((w not in z[0] for w in alist)): 
 					print z[0]
