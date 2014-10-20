@@ -17,20 +17,20 @@ following reasons.
 5. Flash driven sites
 6. contact info embedded in images or other media
 7. extracting name and email: nearly impossible
-	a. Names most often don't follow an email tag
-	b. Not on the same line or same couple of lines
-	c. Hard to distinguish example (dolphin, razor, Peter) words or names
+- Names most often don't follow an email tag
+- Not on the same line or same couple of lines
+- Hard to distinguish example (dolphin, razor, Peter) words or names
 
 ----
 
-1. This script is designed to scrape a list of urls: 
+This script is designed to scrape a list of urls: 
 
 http://foo.com
 http://bar.com 
 etc...
 
-2. Build an array of all urls from a domain 
-3. Stay within the domain name
-4. Search for email addresses
+1. Build an array of all urls from a domain 
+2. Stay within the domain name
+3. Search for email addresses
 
  
