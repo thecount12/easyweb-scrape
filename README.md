@@ -24,11 +24,12 @@ following reasons.
 ----
 
 This script is designed to scrape a list of urls: 
-
+```
 http://foo.com
 http://bar.com 
+http://hop.com
 etc...
-
+```
 1. Build an array of all urls from a domain 
 2. Stay within the domain name
 3. Search for email addresses
